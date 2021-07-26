@@ -30,7 +30,7 @@ l============l
 cor = input(">>> ")
 
 if cor == "Verde":
-    os.chdir('/data/data/com.termux/files/home/Corlux/Bash/')
+    os.chdir('/data/data/com.termux/files/home/Color/Bash/')
     os.system('cp Verde /data/data/com.termux/files/usr/etc/')
     os.chdir('/data/data/com.termux/files/usr/etc/')
     os.system('rm -rf bash.bashrc')
@@ -38,7 +38,7 @@ if cor == "Verde":
     print(f'{Vd}Pronto! \n\n')
     print('Para salvar use o comando "exit" e volte ao terminal.')
 elif cor == "Amarelo":
-    os.chdir('/data/data/com.termux/files/home/Corlux/Bash/')
+    os.chdir('/data/data/com.termux/files/home/Color/Bash/')
     os.system('cp Amarelo /data/data/com.termux/files/usr/etc/')
     os.chdir('/data/data/com.termux/files/usr/etc/')
     os.system('rm -rf bash.bashrc')
@@ -46,7 +46,7 @@ elif cor == "Amarelo":
     print(f'\n{Vd}Pronto! \n\n')
     print('Para salvar use o comando "exit" e volte ao terminal.')
 elif cor == "Vermelho":
-    os.chdir('/data/data/com.termux/files/home/Corlux/Bash/')
+    os.chdir('/data/data/com.termux/files/home/Color/Bash/')
     os.system('cp Vermelho /data/data/com.termux/files/usr/etc/')
     os.chdir('/data/data/com.termux/files/usr/etc/')
     os.system('rm -rf bash.bashrc')
@@ -54,7 +54,7 @@ elif cor == "Vermelho":
     print(f'{Vd}Pronto! \n\n')
     print('Para salvar use o comando "exit" e volte ao terminal.')
 elif cor == "Azul":
-    os.chdir('/data/data/com.termux/files/home/Corlux/Bash/')
+    os.chdir('/data/data/com.termux/files/home/Color/Bash/')
     os.system('cp Azul /data/data/com.termux/files/usr/etc/')
     os.chdir('/data/data/com.termux/files/usr/etc/')
     os.system('rm -rf bash.bashrc')
