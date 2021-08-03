@@ -32,7 +32,7 @@ cor = input(">>> ")
 if cor == "Verde":
     os.chdir("/data/data/com.termux/files/home/Color/Bash/")
     os.system("cp Verde /data/data/com.termux/files/usr/etc/")
-    os.chdir("/data/data/com.termux/files/usr/etc/')
+    os.chdir("/data/data/com.termux/files/usr/etc/")
     os.system("rm -rf bash.bashrc")
     os.system("mv Verde bash.bashrc")
     print(f"{Vd}Pronto! \n\n")
